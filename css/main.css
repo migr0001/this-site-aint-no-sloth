@@ -3,13 +3,14 @@ html {
   font-weight: bold;
   background-color: #bea586;
   background-image: url("../images/sloth.svg");
-  background-size: 32px;
+  background-size: 34px 48px;
   background-repeat: repeat;
 }
 
 h1 {
   color: #fff;
   text-shadow: .1em .1em .3em rgb(28, 14, 0);
+  font-weight: bold;
 }
 
 .border {
@@ -22,10 +23,11 @@ h1 {
 }
 
 .gradient {
-  background-image: linear-gradient(to bottom, rgb(28, 14, 0);
+  background-image: linear-gradient(to bottom, rgba(28, 14, 0), rgb(0,0,0,0));
 }
 
-header {
+
+.masthead {
   background-color: #fff;
 }
 
@@ -36,4 +38,9 @@ main > div {
 p {
   font-family: "Verdana", serif;
   font-weight: normal;
+}
+
+a {
+  color: #000;
+  font-family: "Verdana", serif;
 }
